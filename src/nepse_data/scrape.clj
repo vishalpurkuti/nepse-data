@@ -1,10 +1,4 @@
-(ns nepse-data.scrape
-  (:require [me.raynes.laser :as l]
-            [clj-http.client :as http]
-            [clojure.string :as str]
-            [clojure.core.memoize :as memo]
-            [clj-time.core :as t])
-  (:use nepse-data.utils
+
         [clojure.tools.logging :only [info]]))
 
 (def datanepse-url "http://nepalstock.com/datanepse/index.php")
